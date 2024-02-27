@@ -1,0 +1,4 @@
+bert*
+*.log
+trtllm_bge
+__pycache__
