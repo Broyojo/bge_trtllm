@@ -160,9 +160,6 @@ def main():
                 f"Average Cosine Distance: {(1 - cosine_similarity(trtllm_embeddings, hf_embeddings).mean().item()):.2f}"
             )
 
-            print(trtllm_embeddings)
-            print(hf_embeddings)
-
     if args.run_hf:
         print(total_time_hf / total_hf)
     if args.run_trtllm:
